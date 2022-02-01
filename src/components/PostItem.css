@@ -1,0 +1,30 @@
+ .post{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.post-item{
+    display: flex;
+    justify-content: space-between;
+  } 
+
+  .post-item h4{
+    color: rgb(189, 10, 108);
+    text-align: start;
+  }
+
+  .post-item h5{
+    width: 50px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 170, 248);
+  }
+
+  .post img{
+    width: 200px;
+    margin: 30px;
+  } 
